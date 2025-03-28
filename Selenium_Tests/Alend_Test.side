@@ -1,0 +1,487 @@
+{
+  "id": "61935a79-43bb-41fc-936e-4ca2125497ad",
+  "version": "2.0",
+  "name": "Assignment_4",
+  "url": "https://www.gapcanada.ca/?locale=fr_CA",
+  "tests": [{
+    "id": "77c677b8-f56c-4d50-97a9-7d27f04f5bae",
+    "name": "Location_Test",
+    "commands": [{
+      "id": "4a95d78f-5fbf-4d11-9ed4-3144a0f19e7d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07aa3a8b-4a08-40f9-a469-0861db82ea83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "963f817c-238d-4e1c-87d3-42b2c5754a0c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1036.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f37f5e2-d256-4da3-92c5-8e75eb1e3658",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2308)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81ee2fc0-f184-4c5d-a536-4ef7cdd65bc2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Store Locator",
+      "targets": [
+        ["linkText=Store Locator", "linkText"],
+        ["css=.wcd_footer-links-column:nth-child(1) > .sitewide-1avyp1d:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Store Locator')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div/div[3]/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/stores')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Store Locator')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da33b7ae-b2f6-4683-9655-ba638f24f0b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23f7287e-dc8d-4bdd-b4f2-0eda9e59d7e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": "Calgary"
+    }, {
+      "id": "6af815c4-757a-419b-bbac-0a74738e69ca",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9a39972a-fbd5-4fb5-b919-fe9385dfed4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#lid14307 .address > div:nth-child(2)",
+      "targets": [
+        ["css=#lid14307 .address > div:nth-child(2)", "css:finder"],
+        ["xpath=//li[@id='lid14307']/div/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "596abfc1-9dd1-4b06-816d-aafe8226a07b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#lid14307 .address > div:nth-child(2)",
+      "targets": [
+        ["css=#lid14307 .address > div:nth-child(2)", "css:finder"],
+        ["xpath=//li[@id='lid14307']/div/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Calgary, AB T2P 2Y9"
+    }, {
+      "id": "b430eb79-aebc-4650-8c9c-c4c36d58ea49",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b240e9e4-f90f-4067-a9d5-36143b664bb0",
+    "name": "Invalid_Location_Test",
+    "commands": [{
+      "id": "30286179-14bc-4b57-93ec-5dfb1a6dd9eb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8a73af8-4dd2-49f8-9523-350d02fc9d82",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7e835ac-af72-4e57-8dcb-ac891a70fd4e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1381.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ac0b422-be57-4f95-ad4d-14a7ad33b6c0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3013.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "284a6249-6c24-4dbb-b869-9d86cd628965",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Store Locator",
+      "targets": [
+        ["linkText=Store Locator", "linkText"],
+        ["css=.wcd_footer-links-column:nth-child(1) > .sitewide-1avyp1d:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Store Locator')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div/div[3]/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/stores')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Store Locator')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9f5f833-06a5-4289-99fd-df79cd963126",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eea8666-3fdb-4daf-b58f-f8bc898e2b9f",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": "lalaland"
+    }, {
+      "id": "d156fa1c-2507-44c4-ac69-f06c5f6658f8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "47e8f252-020e-41b7-8abe-497524c35b49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-results",
+      "targets": [
+        ["css=.no-results", "css:finder"],
+        ["xpath=//div[@id='main-container']/div[2]/div/div/div/div/div/div[6]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58d5b5f4-0be3-4746-b5a4-0d1715417ae4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.no-results",
+      "targets": [
+        ["css=.no-results", "css:finder"],
+        ["xpath=//div[@id='main-container']/div[2]/div/div/div/div/div/div[6]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": "We're sorry, we couldn't find any results near your search. Please try your search again or browse for stores by province"
+    }, {
+      "id": "29cf1639-0b13-4f0c-a6a3-08101acecc52",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9c77f57d-c855-4cea-b874-162b52cdf357",
+    "name": "Language_Test_Eng-Fre",
+    "commands": [{
+      "id": "f6251dee-7ed1-411a-8c80-45399734fccb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/?locale=en_CA",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4043ac81-2f35-4fd4-8719-0c79b4020b63",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62bcb6b0-3ea8-4b8b-815a-3fa07ae509ad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,88.80000305175781)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f323952-03aa-4c5e-b32f-6bc1c878a7f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,767.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2084f5b-ae88-404e-95c8-c944efd20f91",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1479.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3aac4707-5a32-4e16-9b83-a5a9e77ac111",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2319.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f447ac91-e98c-4ee4-b39b-7042a6d3714e",
+      "comment": "",
+      "command": "click",
+      "target": "id=footer-locale-link",
+      "targets": [
+        ["id=footer-locale-link", "id"],
+        ["linkText=Français", "linkText"],
+        ["css=#footer-locale-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Français')]", "xpath:link"],
+        ["xpath=//a[@id='footer-locale-link']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gapcanada.ca/?locale=fr_CA')]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Français')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6a02e27-5848-4979-a0ce-11d2d06d4fa0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db162778-0f60-4261-bd0e-d78c828d20c0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,784)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c87d9ba7-ded3-44da-8f1a-ac4a2c5e7b8c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1484.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29699fc7-7a97-4944-894a-866a803f2476",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2303.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7e94199-d6a0-41b5-8c45-56d21ea7588d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-container-wrapper",
+      "targets": [
+        ["css=.footer-container-wrapper", "css:finder"],
+        ["xpath=//div[@id='footer']/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5997a3d1-a449-4740-82c9-2ed5040dc62e",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Service à la Clientèle",
+      "targets": [
+        ["linkText=Service à la Clientèle", "linkText"],
+        ["css=.wcd_footer-links-column:nth-child(1) > .sitewide-1avyp1d:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Service à la Clientèle')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div/div[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customerService/info.do?cid=2136&mlink=55278,29761506,CS_Footer_CustomerService')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Service à la Clientèle')]", "xpath:innerText"]
+      ],
+      "value": "Service à la Clientèle"
+    }, {
+      "id": "403813d2-27ff-4a45-ba89-8cb1fd595709",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "24b1c96e-990d-4a56-ad7b-886b891eeb7f",
+    "name": "Language_Test_Fre-Eng",
+    "commands": [{
+      "id": "e98622f9-5fda-4091-928c-06388164c3c6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/?locale=fr_CA",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "663e6926-59db-4d20-9c5a-27b7fc8f2ae2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17d34c6a-202b-4508-aca5-2fc374ff07e6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,758.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c96304f-266a-4248-bdda-54bdb47d5580",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1466.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e339c27a-f1f2-44e7-b3d6-ef5cc684be4c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2293.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48c40eff-d608-4670-bf95-c875c88ac759",
+      "comment": "",
+      "command": "click",
+      "target": "id=footer-locale-link",
+      "targets": [
+        ["id=footer-locale-link", "id"],
+        ["linkText=English", "linkText"],
+        ["css=#footer-locale-link", "css:finder"],
+        ["xpath=//a[contains(text(),'English')]", "xpath:link"],
+        ["xpath=//a[@id='footer-locale-link']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gapcanada.ca/?locale=en_CA')]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cea43e3-104e-4ba7-b1b7-43a28b498d17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,763.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24fece26-a9dc-4ee3-b2dc-98dff1b965c1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1537.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a978c85-b49d-4f39-81ad-7960cafa3029",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2283.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a74ac0d1-2096-446d-b951-a87a59300bf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-container-wrapper",
+      "targets": [
+        ["css=.footer-container-wrapper", "css:finder"],
+        ["xpath=//div[@id='footer']/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6a3d6a8-5d8b-4503-b3ae-14c4675b2be0",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Customer Service",
+      "targets": [
+        ["linkText=Customer Service", "linkText"],
+        ["css=.wcd_footer-links-column:nth-child(1) > .sitewide-1avyp1d:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Customer Service')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div/div[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customerService/info.do?cid=2136&mlink=55278,29761505,CS_Footer_CustomerService')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Customer Service')]", "xpath:innerText"]
+      ],
+      "value": "Customer Service"
+    }, {
+      "id": "03a6c0d3-9def-4fda-93b7-62af03160794",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "697f2d26-28d1-42f8-9b96-94a1892106a6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["77c677b8-f56c-4d50-97a9-7d27f04f5bae"]
+  }],
+  "urls": ["https://www.gapcanada.ca/", "https://www.gapcanada.ca/?locale=en_CA", "https://www.gapcanada.ca/?locale=fr_CA"],
+  "plugins": []
+}

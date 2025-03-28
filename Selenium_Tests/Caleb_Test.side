@@ -1,0 +1,582 @@
+{
+  "id": "30050455-2733-4b3f-91cd-17c19dd65ccf",
+  "version": "2.0",
+  "name": "438 - Gap",
+  "url": "https://secure-www.gapcanada.ca/my-account/communication-preferences",
+  "tests": [{
+    "id": "d1de9444-e73d-4a8b-b0b8-0f59d78548d1",
+    "name": "Search Item (valid)",
+    "commands": [{
+      "id": "f284e27f-d5bc-46b8-a24f-3f8b9762ecc3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83fa466b-f428-40ac-9857-4cda90fb96a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1772x996",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e0e9159-3b55-4324-a857-1c8cf1550b34",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1iyodiv",
+      "targets": [
+        ["css=.sitewide-1iyodiv", "css:finder"],
+        ["xpath=//img[@alt='60% off limited-time deals select styles. ']", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a74f71f6-b999-40d3-aa4a-d6a436b96330",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1iyodiv",
+      "targets": [
+        ["css=.sitewide-1iyodiv", "css:finder"],
+        ["xpath=//img[@alt='60% off limited-time deals select styles. ']", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4248f461-f7ae-458b-9ebd-21863b9f02a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f43c0722-ec78-4662-a400-96b5a20e6f5f",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "sweater"
+    }, {
+      "id": "700121e7-9b0e-439e-9089-3e68f4110194",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfd0f20e-258f-4e6b-b7d8-a89b31f41b16",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "62309428-f9a5-4fba-883d-537ebfd60f26",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dd19a52-81ed-48ca-9c5b-4a611ade2bfc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.topNavLink:nth-child(6) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5356adf2-1337-40ea-b692-6bc2ca88c55e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Girls",
+      "targets": [
+        ["linkText=Girls", "linkText"],
+        ["css=.topNavLink:nth-child(4) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Girls')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137865&mlink=39813,30012485,Megnav_Girls&clink=30012485&nav=meganav%3AGirls%3A%3A')]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Girls')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4d622f4-3c95-4463-b772-db6536448a74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-tflalm",
+      "targets": [
+        ["css=.sitewide-tflalm", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Search results for: \"sweater\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa5a0fe1-4966-4801-8e1c-bec66f847192",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sitewide-tflalm",
+      "targets": [
+        ["css=.sitewide-tflalm", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Search results for: \"sweater\"')]", "xpath:innerText"]
+      ],
+      "value": "Search results for: \"sweater\""
+    }, {
+      "id": "7f780425-6a8b-4d84-ada3-68b6e6042eef",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fab436cf-60b7-47fc-bda7-f7c2973c9e99",
+    "name": "Search Item (Invalid)",
+    "commands": [{
+      "id": "3baac201-f430-4caf-9f62-1da7c2045241",
+      "comment": "",
+      "command": "open",
+      "target": "https://secure-www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7356568-2ba3-40c9-b6f8-41bd8bf4e778",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1140x856",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3481f0a9-55ee-41b6-be64-6c074983eeb6",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad9d4726-cee3-4f41-a567-3030a2ca63f6",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ":"
+    }, {
+      "id": "32e364cd-d0a5-4a7f-958f-d7f8fd65c3af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c2b2b9-49e2-4e6d-bd83-c748ff416e53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-bcabrg",
+      "targets": [
+        ["css=.sitewide-bcabrg", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1434c048-2226-4ba9-8310-592b8d840ef1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sitewide-bcabrg",
+      "targets": [
+        ["css=.sitewide-bcabrg", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "We couldn't find a match for \":\". Please try another search"
+    }, {
+      "id": "a32c2709-0beb-423a-908b-6b8e9f87446d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "877705f1-60c3-4108-9dc5-14a1243356d1",
+    "name": "Register for Newsletter (valid)",
+    "commands": [{
+      "id": "e6f2dfb7-4773-4bf5-a015-62256bc475a1",
+      "comment": "",
+      "command": "open",
+      "target": "https://secure-www.gapcanada.ca/my-account/communication-preferences",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49c897db-957f-41a6-a4ab-7b229292b735",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1772x996",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "372604b0-a245-429b-a739-ced86f1fd5ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.m-0:nth-child(4)",
+      "targets": [
+        ["css=.m-0:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80ee647-da5f-452a-aa4c-7136bb5a51ea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.m-0:nth-child(4)",
+      "targets": [
+        ["css=.m-0:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bfc54a5-8b9e-49cd-bce6-19d803af4b7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .\\[\\&_\\*\\]\\3A\\!font-sourcesans > .sitewide-1fojmrr",
+      "targets": [
+        ["css=div > .\\[\\&_\\*\\]\\3A\\!font-sourcesans > .sitewide-1fojmrr", "css:finder"],
+        ["xpath=//span[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Email Address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2657c81d-6b27-4418-a426-820640089b71",
+      "comment": "",
+      "command": "type",
+      "target": "id=comm-prefs-subscribe-email-hui",
+      "targets": [
+        ["id=comm-prefs-subscribe-email-hui", "id"],
+        ["name=comm-prefs-subscribe-email", "name"],
+        ["css=#comm-prefs-subscribe-email-hui", "css:finder"],
+        ["xpath=//input[@id='comm-prefs-subscribe-email-hui']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "calebbourbonnais1@gmail.com"
+    }, {
+      "id": "5ed729d0-391b-4da0-8f6c-ce586e21c91c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#checkbox__2360 > .before\\3A\\!bg-\\[\\#0466ca\\]",
+      "targets": [
+        ["css=#checkbox__2360 > .before\\3A\\!bg-\\[\\#0466ca\\]", "css:finder"],
+        ["xpath=(//div[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//label[@id='checkbox__2360']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c550bd1-72b0-422e-8dcf-ded7baf64cce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\[\\&_span\\]\\3A font-sourcesans .sitewide-1fojmrr",
+      "targets": [
+        ["css=.\\[\\&_span\\]\\3A font-sourcesans .sitewide-1fojmrr", "css:finder"],
+        ["xpath=//span[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div[5]/div/label/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Postal Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7407ef-2e19-435d-aabd-40d6f4d32846",
+      "comment": "",
+      "command": "type",
+      "target": "name=zipCode",
+      "targets": [
+        ["name=zipCode", "name"],
+        ["css=.sitewide-1vyelxs", "css:finder"],
+        ["xpath=//input[@name='zipCode']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div[5]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/label/input", "xpath:position"]
+      ],
+      "value": "T2R 0H7"
+    }, {
+      "id": "2cb700c7-f20f-4c7a-8d5f-0561f5b1ea99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-cb-coreColor-dark",
+      "targets": [
+        ["css=.bg-cb-coreColor-dark", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//form/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49744a59-83ac-44a5-bed0-c8c45233fe06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-dx2n3i",
+      "targets": [
+        ["css=.sitewide-dx2n3i", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/div/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Success! Your communication preferences have been updated.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f55ab7fa-5f54-4e28-bdbf-b1c22577a380",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sitewide-dx2n3i",
+      "targets": [
+        ["css=.sitewide-dx2n3i", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/div/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Success! Your communication preferences have been updated.')]", "xpath:innerText"]
+      ],
+      "value": "Success! Your communication preferences have been updated."
+    }, {
+      "id": "e6561dc5-d052-498c-9d88-17fd0833ca2c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "126e27ea-091f-41fc-bb3d-071ec3162b66",
+    "name": "Register for Newsletter (Invalid)",
+    "commands": [{
+      "id": "200d21d8-ba6b-47f6-b48e-d7ea5e45bd46",
+      "comment": "",
+      "command": "open",
+      "target": "https://secure-www.gapcanada.ca/my-account/communication-preferences",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f92eb034-f312-433d-95a0-a2e652a7ddbe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1772x996",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b17c280-4e95-40e2-b7a7-5f2c6aa7e7a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=comm-prefs-subscribe-email-hui",
+      "targets": [
+        ["id=comm-prefs-subscribe-email-hui", "id"],
+        ["name=comm-prefs-subscribe-email", "name"],
+        ["css=#comm-prefs-subscribe-email-hui", "css:finder"],
+        ["xpath=//input[@id='comm-prefs-subscribe-email-hui']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3775778-ea25-474b-b581-e29763787022",
+      "comment": "",
+      "command": "type",
+      "target": "id=comm-prefs-subscribe-email-hui",
+      "targets": [
+        ["id=comm-prefs-subscribe-email-hui", "id"],
+        ["name=comm-prefs-subscribe-email", "name"],
+        ["css=#comm-prefs-subscribe-email-hui", "css:finder"],
+        ["xpath=//input[@id='comm-prefs-subscribe-email-hui']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "caleb"
+    }, {
+      "id": "4db3269e-0c94-43b3-879a-e899ee361d12",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.normal-case > .m-0",
+      "targets": [
+        ["css=.normal-case > .m-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div[3]/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Language')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db8f8b30-817b-4b72-b6b3-753bb9a08558",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=form:nth-child(2)",
+      "targets": [
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86811572-7548-436d-a87d-975fbf54e197",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(2)",
+      "targets": [
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec49ff4a-b65f-4061-a328-bec318d56585",
+      "comment": "",
+      "command": "click",
+      "target": "css=#checkbox__2191 > .before\\3A\\!bg-\\[\\#0466ca\\]",
+      "targets": [
+        ["css=#checkbox__2191 > .before\\3A\\!bg-\\[\\#0466ca\\]", "css:finder"],
+        ["xpath=(//div[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//label[@id='checkbox__2191']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2a5e8f7-2c35-4bf1-8f3e-e53eec3cb285",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\[\\&_span\\]\\3A font-sourcesans .sitewide-1fojmrr",
+      "targets": [
+        ["css=.\\[\\&_span\\]\\3A font-sourcesans .sitewide-1fojmrr", "css:finder"],
+        ["xpath=//span[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div[5]/div/label/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Postal Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e487ab1-c73b-41e7-acda-9cfe863e4eba",
+      "comment": "",
+      "command": "type",
+      "target": "name=zipCode",
+      "targets": [
+        ["name=zipCode", "name"],
+        ["css=.sitewide-1vyelxs", "css:finder"],
+        ["xpath=//input[@name='zipCode']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div[5]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/label/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "eb3dd462-edac-4276-8fc2-4c448485a410",
+      "comment": "",
+      "command": "click",
+      "target": "css=.font-sourcesans:nth-child(1)",
+      "targets": [
+        ["css=.font-sourcesans:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='main-content']/div", "xpath:idRelative"],
+        ["xpath=//main/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2852a1bf-02af-4369-a3d4-79e440bc0372",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-cb-coreColor-dark",
+      "targets": [
+        ["css=.bg-cb-coreColor-dark", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//form/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1157e891-dc77-4674-a6c5-abcacc0417b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\[\\&_span\\]\\3A font-sourcesans .sitewide-m6xwpg",
+      "targets": [
+        ["css=.\\[\\&_span\\]\\3A font-sourcesans .sitewide-m6xwpg", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div[5]/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15649d26-73d6-4113-b767-53dc7c283552",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\[\\&_\\*\\]\\3A\\!font-sourcesans > .sitewide-m6xwpg",
+      "targets": [
+        ["css=.\\[\\&_\\*\\]\\3A\\!font-sourcesans > .sitewide-m6xwpg", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c3d4e8d-33f9-496b-883b-6ba83c8373f5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.\\[\\&_\\*\\]\\3A\\!font-sourcesans > .sitewide-m6xwpg",
+      "targets": [
+        ["css=.\\[\\&_\\*\\]\\3A\\!font-sourcesans > .sitewide-m6xwpg", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div[2]/form/div/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": "Enter a valid email address."
+    }, {
+      "id": "15e1c52f-4f59-4363-ae65-c641312e14b8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ab9a5ed9-f08f-417d-a8d4-4b6dc6975ad0",
+    "name": "438Lab04Caleb",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["126e27ea-091f-41fc-bb3d-071ec3162b66", "877705f1-60c3-4108-9dc5-14a1243356d1", "fab436cf-60b7-47fc-bda7-f7c2973c9e99", "d1de9444-e73d-4a8b-b0b8-0f59d78548d1"]
+  }],
+  "urls": ["https://www.gapcanada.ca/browse/product.do?pid=7372966230003&cid=1066503&pcid=1066503&vid=1&cpos=0&kcid=CategoryIDs%3D1066503&ctype=Listing&cpid=res638783765856532392#pdp-page-content", "https://www.gapcanada.ca/", "https://secure-www.gapcanada.ca/my-account/communication-preferences"],
+  "plugins": []
+}
